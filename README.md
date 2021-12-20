@@ -98,65 +98,6 @@ npm dev
 ```
 Ao inicia o projeto abrirar a rota [localhost:8080](http://localhost:8080/)
 
-<br/>
-<h2>🎓 <strong>Membros</strong></h2>
-<table align="center">
-  <tr>
-    <td align="center">
-      <a href="https://euajudo-app.vercel.app/">
-        <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/7308958?v=4" width="100px;" alt="EPICE"/>
-        <br />
-        <sub><b>Rômulo Costa</b>
-        </sub></a><br />
-      <a href="https://euajudo-app.vercel.app/" title="EPICE">Orientador</a>
-    </td>
-       <td align="center">
-      <a href="https://euajudo-app.vercel.app/">
-        <img style="border-radius: 13px;" src="https://avatars.githubusercontent.com/u/56506788?v=4" width="100px;" alt="EPICE"/>
-        <br />
-        <sub><b>Kayo Ronald</b>
-        </sub></a><br />
-      <a href="https://euajudo-app.vercel.app/" title="EPICE">Front-end</a>
-    </td>
-     <td align="center">
-      <a href="https://euajudo-app.vercel.app/">
-        <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/62349504?v=4" width="100px;" alt="EPICE"/>
-        <br />
-        <sub><b>Gluaber</b>
-        </sub></a><br />
-      <a href="https://euajudo-app.vercel.app/" title="EPICE">Back-end</a>
-    </td>
-  </tr>
-</table>
-<blockquote align="center">
-  <p>EPICE, venha participar você também!</p>
-</blockquote>
-<br/>
-<hr/>
-
-## Contributors ✨
-
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
-
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tr>
-    <td align="center"><a href="http://diqxy1@gmail.com"><img src="https://avatars.githubusercontent.com/u/43462352?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Eduardo Pinheiro</b></sub></a><br /><a href="#maintenance-Diqxy1" title="Maintenance">🚧</a> <a href="https://github.com/KayoRonald/euajudo-back-end/commits?author=Diqxy1" title="Code">💻</a></td>
-  </tr>
-</table>
-
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
 
 ## 📝 **Licença**
 Esse projeto está sobre a licença MIT. Veja o arquivo **[LICENSE](LICENSE)** para mais detalhes.
