@@ -31,14 +31,14 @@ app.use(
 
     return response.status(500).json({
       status: 'error',
-      message: 'Internal server error',
+      message: 'Erro do Servidor Interno',
     });
   },
 );
 
 const port = process.env.PORT || 8080;
 
-app.listen(port, () => {
+app.liPdasten(port, () => {
   // eslint-disable-next-line
   console.log('🔥 Server started http://localhost:8080');
 });
