@@ -38,7 +38,7 @@ app.use(
 
 const port = process.env.PORT || 8080;
 
-app.liPdasten(port, () => {
+app.listen(port, () => {
   // eslint-disable-next-line
   console.log('🔥 Server started http://localhost:8080');
 });
