@@ -101,7 +101,3 @@ Ao inicia o projeto abrirar a rota [localhost:8080](http://localhost:8080/)
 
 ## 📝 **Licença**
 Esse projeto está sobre a licença MIT. Veja o arquivo **[LICENSE](LICENSE)** para mais detalhes.
-
-<h4 align="center">
-    <b>Realizado como trablho no <a href="https://www.ifpb.edu.br/picui">IFPB Campus Picuí. 💜</a></b>
-</h4>
