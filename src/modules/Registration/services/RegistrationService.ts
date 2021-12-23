@@ -1,7 +1,6 @@
 import { getCustomRepository } from 'typeorm';
-
 import AppError from '@shared/errors/AppError';
-import RegistionPoint from '@modules/Registration/typeorm/models/RegistrationDb';
+import RegistionPoint from '@modules/Registration/typeorm/models/RegistrationPoint';
 import { EpiceDbRepository } from '@modules/Registration/typeorm/repositories/EpiceDbRepository';
 
 interface IRequest {
