@@ -9,9 +9,7 @@ interface IRequest {
 
 export default class DeleteRegistrationPoinService {
   public async execute({ pointId }: IRequest): Promise<void> {
-    const registrationRepository = getCustomRepository(
-      EpiceDbRepository,
-    );
+    const registrationRepository = getCustomRepository(EpiceDbRepository);
 
     const point = await registrationRepository.findOne({
       where: { id: pointId },

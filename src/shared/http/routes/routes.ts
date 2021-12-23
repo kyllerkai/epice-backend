@@ -4,6 +4,6 @@ import epiceRoutes from '@modules/Registration/routes/Register.routes';
 
 const routes = Router();
 
-routes.use('/epiceDb', epiceRoutes);
+routes.use('/epiceData', epiceRoutes);
 
 export default routes;

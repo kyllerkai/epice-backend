@@ -7,11 +7,7 @@ import UpdateServie from '../services/UpdateService';
 
 export default class RegistionPointController {
   async create(request: Request, response: Response): Promise<Response> {
-    const {
-      nome,
-      email,
-      curso,
-    } = request.body;
+    const { nome, email, curso } = request.body;
 
     const registionPoint = new RegistrationPointService();
 
@@ -47,11 +43,7 @@ export default class RegistionPointController {
   async update(request: Request, response: Response): Promise<Response> {
     const { id } = request.params;
 
-    const {
-      nome,
-      email,
-      curso,
-    } = request.body;
+    const { nome, email, curso } = request.body;
 
     const updatePoint = new UpdateServie();
 

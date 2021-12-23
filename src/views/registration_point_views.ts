@@ -1,4 +1,4 @@
-import RegistionPoint from '../modules/Registration/typeorm/models/RegistrationPoint';
+import RegistionPoint from '../modules/Registration/typeorm/models/RegistrationDb';
 
 export default {
   // eslint-disable-next-line

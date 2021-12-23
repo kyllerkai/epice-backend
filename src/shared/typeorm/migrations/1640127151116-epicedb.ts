@@ -1,6 +1,6 @@
 import { MigrationInterface, QueryRunner, Table } from 'typeorm';
 
-export class RegistrationPointTable1627808901571 implements MigrationInterface {
+export class epicedb1640127151116 implements MigrationInterface {
   public async up(queryRunner: QueryRunner): Promise<void> {
     await queryRunner.createTable(
       new Table({
@@ -21,7 +21,7 @@ export class RegistrationPointTable1627808901571 implements MigrationInterface {
           {
             name: 'email', // email da pessoa
             type: 'varchar',
-            isUnique: true
+            isUnique: true,
           },
           {
             name: 'curso', //curso da pessoa

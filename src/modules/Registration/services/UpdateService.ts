@@ -1,7 +1,7 @@
 import { getCustomRepository } from 'typeorm';
 
 import AppError from '@shared/errors/AppError';
-import RegistionPoint from '@modules/Registration/typeorm/models/RegistrationPoint';
+import RegistionPoint from '@modules/Registration/typeorm/models/RegistrationDb';
 import { EpiceDbRepository } from '@modules/Registration/typeorm/repositories/EpiceDbRepository';
 
 interface IRequest {
@@ -18,9 +18,7 @@ export default class UpdateServie {
     curso,
     email,
   }: IRequest): Promise<RegistionPoint> {
-    const registrationRepository = getCustomRepository(
-      EpiceDbRepository,
-    );
+    const registrationRepository = getCustomRepository(EpiceDbRepository);
 
     const point = await registrationRepository.findOne({ where: { id: id } });
 

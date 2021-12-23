@@ -1,7 +1,7 @@
 import { getCustomRepository } from 'typeorm';
 
 import AppError from '@shared/errors/AppError';
-import RegistionPoint from '@modules/Registration/typeorm/models/RegistrationPoint';
+import RegistionPoint from '@modules/Registration/typeorm/models/RegistrationDb';
 import { EpiceDbRepository } from '@modules/Registration/typeorm/repositories/EpiceDbRepository';
 
 interface IRequest {
@@ -16,9 +16,7 @@ export default class RegistrationPointService {
     curso,
     email,
   }: IRequest): Promise<RegistionPoint> {
-    const epiceDbRepository = getCustomRepository(
-      EpiceDbRepository,
-    );
+    const epiceDbRepository = getCustomRepository(EpiceDbRepository);
 
     const create = await epiceDbRepository.create({
       nome,
@@ -30,12 +28,9 @@ export default class RegistrationPointService {
 
     for (let i = 0; i < findPoins.length; i++) {
       if (findPoins[i].email) {
-        throw new AppError(
-          `Email já cadastrado`,
-        );
+        throw new AppError(`Email já cadastrado`);
       }
     }
-
     return await epiceDbRepository.save(create);
   }
 }
