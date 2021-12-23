@@ -1,6 +1,6 @@
 import { getCustomRepository } from 'typeorm';
 
-import AppError from '@shared/errors/AppError';
+// import AppError from '@shared/errors/AppError';
 import RegistionPoint from '@modules/Registration/typeorm/models/RegistrationPoint';
 import { EpiceDbRepository } from '@modules/Registration/typeorm/repositories/EpiceDbRepository';
 
@@ -26,15 +26,15 @@ export default class RegistrationPointService {
       email,
     });
 
-    const findPoins = await epiceDbRepository.find();
+//     const findPoins = await epiceDbRepository.find();
 
-    for (let i = 0; i < findPoins.length; i++) {
-      if (findPoins[i].email) {
-        throw new AppError(
-          `Email já cadastrado`,
-        );
-      }
-    }
+//     for (let i = 0; i < findPoins.length; i++) {
+//       if (findPoins[i].email) {
+//         throw new AppError(
+//           `Email já cadastrado`,
+//         );
+//       }
+//     }
 
     return await epiceDbRepository.save(create);
   }
